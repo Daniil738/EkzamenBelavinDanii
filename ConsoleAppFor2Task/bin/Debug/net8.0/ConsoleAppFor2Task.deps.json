@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleAppFor2Task/1.0.0": {
+        "dependencies": {
+          "Task_1": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppFor2Task.dll": {}
+        }
+      },
+      "Task_1/1.0.0": {
+        "runtime": {
+          "Task_1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppFor2Task/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

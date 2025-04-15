@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleAppFor3Task/1.0.0": {
+        "dependencies": {
+          "LibraryForTask2": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppFor3Task.dll": {}
+        }
+      },
+      "LibraryForTask2/1.0.0": {
+        "runtime": {
+          "LibraryForTask2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppFor3Task/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryForTask2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

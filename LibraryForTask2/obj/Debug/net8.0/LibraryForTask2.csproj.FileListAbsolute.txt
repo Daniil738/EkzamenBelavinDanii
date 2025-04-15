@@ -1,0 +1,11 @@
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\bin\Debug\net8.0\LibraryForTask2.deps.json
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\bin\Debug\net8.0\LibraryForTask2.dll
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\bin\Debug\net8.0\LibraryForTask2.pdb
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.AssemblyInfoInputs.cache
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.AssemblyInfo.cs
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.csproj.CoreCompileInputs.cache
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.dll
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\refint\LibraryForTask2.dll
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\LibraryForTask2.pdb
+C:\Users\danik\RiderProjects\Task_1\LibraryForTask2\obj\Debug\net8.0\ref\LibraryForTask2.dll
