@@ -12,16 +12,34 @@ public partial class Form1 : Form
     {
         string movers_status = comboBox1.Text;
         string distant_str = textBox1.Text;
-        int distant_int = int.Parse(distant_str); 
-        if (movers_status == "Да")
+        if (movers_status == "")
         {
-            double price = LibraryForTask2.lib.spend(distant_int, true);
-            label4.Text = price.ToString();
+            MessageBox.Show("Введите значение для грузчиков");
         }
-        else
+        try
         {
-            double price = LibraryForTask2.lib.spend(distant_int, false);
-            label4.Text = price.ToString();
+            if (movers_status == "Да")
+            {
+                double price = LibraryForTask2.lib.spend(int.Parse(distant_str), true);
+                label4.Text = price.ToString();
+            }
+        }
+        catch (Exception)
+        {
+            MessageBox.Show("Ошибка при рассчете");
+        }
+
+        try
+        {
+            if (movers_status == "Нет")
+            {
+                double price = LibraryForTask2.lib.spend(int.Parse(distant_str), false);
+                label4.Text = price.ToString();
+            }
+        }
+        catch (Exception)
+        {
+            MessageBox.Show("Ошибка при рассчете. Проверьте правильность ввод числа");
         }
     }
 

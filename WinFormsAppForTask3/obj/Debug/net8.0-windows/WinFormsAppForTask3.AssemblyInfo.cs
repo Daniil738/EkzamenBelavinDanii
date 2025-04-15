@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsAppForTask3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22125aa66caa0fdfb22cb8ebbeffe596b387ba95")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsAppForTask3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsAppForTask3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

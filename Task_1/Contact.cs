@@ -75,6 +75,42 @@ public class Contact //создание класса Contacts
     /// <returns></returns>
     public override string ToString()
     {
-        return string.Format("Фамилия - {0} Имя - {1} Отчество - {2}. Номер телефона - {3}, рабочий номер телефона - {4}", surname, name, secondName, phone_number, work_phone_number);
+        return string.Format("Фамилия - {0} Имя - {1} Отчество - {2}. Номер телефона - {3}, рабочий номер телефона - {4}, домашний номер телефона - {5}", surname, name, secondName, phone_number, work_phone_number, home_phone_number);
+    }
+
+    public string Surname
+    {
+        get { return surname; }
+        set { surname = value; }
+    }
+
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+
+    public string SecondName
+    {
+        get { return secondName; }
+        set { secondName = value; }
+    }
+
+    public string PhoneNumber
+    {
+        get { return phone_number; }
+        set { phone_number = value; }
+    }
+
+    public string HomePhoneNumber
+    {
+        get { return home_phone_number; }
+        set { home_phone_number = value; }
+    }
+
+    public string WorkPhoneNumber
+    {
+        get { return work_phone_number; }
+        set { work_phone_number = value; }
     }
 }
